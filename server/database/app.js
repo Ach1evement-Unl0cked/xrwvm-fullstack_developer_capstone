@@ -1,4 +1,3 @@
-
 const express = require('express');
 const mongoose = require('mongoose');
 const fs = require('fs');
@@ -120,4 +119,3 @@ app.post('/insert_review', express.raw({ type: '*/*' }), async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
-
